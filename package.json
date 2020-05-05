@@ -1,0 +1,15 @@
+{
+  "name": "mbtypist",
+  "version": "1.0.0",
+  "description": "⌨️ Electron App to copy text and paste like typist",
+  "main": "clityper.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^7.1.3"
+  }
+}
