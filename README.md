@@ -13,6 +13,16 @@
 
 ⚠️ This app is Mac only and depends on [Keyboard Maestro](https://www.keyboardmaestro.com/main/)
 
+#### How it works?
+
+It will store clipboard to an array by breaking word by word. 
+
+For each spaces and next line found in your clipboard, it will be stored in a position of that array. We can call it `steps`.
+
+This app will paste each position of the array and you can visualize and control theses `steps`.
+
+The typist simulation is a Keyboard Maestro's responsability whereas this app will only store and manage the clipboard.
+
 ## Install
 
 ```sh
@@ -31,17 +41,7 @@ And navigate to project folder, with your prefered terminal, and start applicati
 npm start
 ```
 
-#### How it works?
-
-It will store clipboard to an Array by breaking words. 
-
-For each spaces and next line found, will be stored in a position of that Array. We can call it `steps`
-
-This app will paste each position of Array and you can visualize and control steps.
-
-The typist simulation is a Keyboard Maestro's responsability
-
-#### Controlling
+#### Controlling the typist
 
 This app is fully controlled with shortcuts.
 
