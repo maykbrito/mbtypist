@@ -1,9 +1,8 @@
-const { app, globalShortcut, clipboard } = require('electron')
+const { app, globalShortcut, clipboard } = require('electron');
 
-let arrayText
-let currentStep = 0
-let typing = false
-
+let arrayText;
+let currentStep = 0;
+let typing = false;
 
 const type = () => {
 	if (!arrayText[currentStep]) return
@@ -18,7 +17,6 @@ const type = () => {
 	
 	nextStep()
 }
-
 
 const playStep = () => {
 	if (!arrayText && typing) return
